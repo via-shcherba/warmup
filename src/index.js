@@ -1,3 +1,7 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  if(typeof(temperature) == "number"){	
+		return 1.8 * temperature + 32;
+	}else{
+		return null;
+	}
 };
